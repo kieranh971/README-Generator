@@ -63,8 +63,6 @@ const questions = [
     },
 ];
 // The badge for that lincense is added to top of readme and a notice is added to that section of the readme titled License that explains which license the application is covered under
-// Github username that is added to the section of the readme entitled Questions with a link to users github profile
-// Email address is added to the section of the readme entitled questions with instructions on how to reach me with additional questions
 // Clicking on the links of the table of contents takes user to corresponding section of the readme
 
 // TODO: Create a function to write README file
