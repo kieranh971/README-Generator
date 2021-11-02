@@ -63,7 +63,6 @@ const questions = [
     },
 ];
 // The badge for that lincense is added to top of readme and a notice is added to that section of the readme titled License that explains which license the application is covered under
-// Clicking on the links of the table of contents takes user to corresponding section of the readme
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
