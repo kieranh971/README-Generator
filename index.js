@@ -42,12 +42,12 @@ const questions = [
         name: "testing",
         message: "Please describe how users can test your project."
     },
-    // Licensing Options - Thought it made more sense to use a checkbox in case user has multiple licenses required for a project
+    // Licensing Options - Thought it made more sense to use a checkbox instead of a list in case user has multiple licenses required for a project
     {
         type: "checkbox",
         name: "licensing",
         message: "Please choose any required linceses for your project.",
-        choices: ["License 1", "License 2", "License 3", "License 4", "License 5"]
+        choices: ["HTML", "CSS", "Javascript"]
     },
     // Github UN
     {
@@ -67,7 +67,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-        if (err) // Need to throw error if any
+        if (err) // Need to throw error if any errors
             throw err;
             console.log("Inputs added to README")
     });
